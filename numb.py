@@ -1,4 +1,4 @@
-number = int(input(1))
+number = int(input(2))
 total = 0
 
 for value in range(1, number + 1):
