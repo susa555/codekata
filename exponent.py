@@ -1,7 +1,7 @@
 a = 2
-exponent = 3
+exponent = 2
 
-while exponent < 3+1:
+while exponent < 2+1:
   a = a ** exponent
   exponent = exponent + 1
   print (a)
