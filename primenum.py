@@ -1,5 +1,5 @@
-start = 1
-end = 10
+start = 10
+end = 18
   
 for val in range(start, end + 1): 
    if val > 1: 
