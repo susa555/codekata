@@ -1,0 +1,14 @@
+create table sdetails(rollno integer, name varchar(100),dept varchar(10),year integer);
+insert sdetails values(1,'susha','ece',2020);
+insert sdetails values(2,'ammu','ece',2019);
+insert sdetails values(3,'mittu','ece',2019);
+insert sdetails values(4,'shadhir','mech',2018);
+insert sdetails values(5,'arsath','ece',2020);
+insert sdetails values(6,'vasee','eee',2018);
+insert sdetails values(7,'thanseer','eee',2020);
+insert sdetails values(8,'dharvesh','csc',2018);
+insert sdetails values(9,'peer','ece',2019);
+insert sdetails values(10,'fayas','csc',2019);
+alter table sdetails add email varchar(5);
+delete from sdetails;
+select * from sdetails;
